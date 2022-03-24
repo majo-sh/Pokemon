@@ -1,0 +1,112 @@
+.card {
+    margin-top:70px;
+    width:300px;
+    height:400px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    
+}
+
+.card-id {
+    font-size:20px;
+    color: rgb(151, 151, 151);
+}
+
+
+.card-img {
+    margin-top:20px;
+}
+
+.card-name {
+    margin-top:30px;
+    font-size:40px;
+    font-weight:medium;
+    color: rgb(34, 34, 34)
+}
+
+.grass {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(211, 255, 214) 53%);
+}
+.fire {
+
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(255, 196, 196) 53%);
+}
+.bug {
+
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(171, 255, 192) 53%);
+}
+.normal {
+
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(221, 221, 221) 53%);
+}
+.water {
+
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(180, 204, 255) 53%);
+}
+.poison {
+
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(221, 180, 255) 53%);
+}
+.flying {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgba(148,187,233,1) 53%);
+}
+.electric {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(249, 255, 193) 53%);
+}
+.ground {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(221, 207, 192) 53%);
+}
+.fairy {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(255, 212, 251) 53%);
+}
+.fighting {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(197, 128, 128) 53%);
+}
+.psychic {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(216, 122, 180) 53%);
+}
+.rock {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(163, 111, 83) 53%);
+}
+.steel {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(118, 118, 118) 53%);
+}
+.ghost {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(154, 91, 218) 53%);
+}
+.ice {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(226, 226, 255) 53%);
+}
+.dragon {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 47%, rgb(88, 88, 208) 53%);
+}
+
+.type {
+    display: inline-block;
+    margin-left:6px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius:5px;
+
+}
+
+.btn {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius:10px;
+    background-color: #94acdc6e;
+    font-size:25px;
+}
+
+.btn:hover {
+    background-color: #94acdca6;
+}
+
