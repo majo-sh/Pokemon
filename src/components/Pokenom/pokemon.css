@@ -55,5 +55,28 @@
 
 .side {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
 }
+
+@media screen and (max-width: 600px) {
+    .poke {
+        width:300px;
+    }
+    .poke-img {
+        width: 20vh;
+    }
+    .stats-card {
+        width:300px;
+    }
+    .stat {
+        margin-top:10px;
+    }
+    .side {
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+}
+    
