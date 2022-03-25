@@ -11,7 +11,7 @@ export default function Card({ names, id, avatar, types }) {
     return (
         <Link to={`/${names}`} >
             <section className={styles}>
-                <h2 className="card-id">#{id}</h2>
+                <h2 className="card-idname">#{id}</h2>
                 <figure className='img-container'>
                     <img className="card-img" src={avatar} alt={names} />
                     <figcaption className="card-name">{names[0].toUpperCase() + names.slice(1)}</figcaption>
